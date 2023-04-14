@@ -19,7 +19,7 @@ bestFruit();
 
 // Cuidado al no declarar una variable, hace que una variable solo al asignarle el valor sin antes haberla declarado funcionara como una variable global, funcionara en cualquier parte
 function countries() {
-  country = 'México'; // Cuidado!!! Declaracion global en la funcion, necesita var, let y const
+  country = 'México'; // Cuidado!!! Declaracion global dentro de la funcion, necesita var, let y const, solo para usarla dentro dentro de la funcion
   console.log(country);
 }
 
